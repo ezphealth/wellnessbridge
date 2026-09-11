@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D63B9HW4MW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D63B9HW4MW');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Landing Page - Video</title>
@@ -160,7 +169,7 @@
       </div>
       <div class="video-info">
         <h2>The Weird "Gelatin Horse Trick"</h2>
-        <a href="https://ezphealth.github.io/wellnessbridgevsl/" class="watch-btn" target="_blank" rel="noopener">
+        <a href="https://ezphealth.github.io/wellnessbridgevsl/" class="watch-btn" target="_blank" rel="noopener" onclick="if(typeof gtag==='function'){gtag('event','clique_watch_now',{event_category:'engagement',event_label:'Botao Watch Now'});}">
           <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           WATCH NOW
         </a>
